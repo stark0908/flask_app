@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheathub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/clipboard.css') }}">
+</head>
+<body style="font-family: Roboto;">
+    <h1>Cheathub</h1>
+    <h3>Enter Whatever You Want</h3>
+    <form method="POST" class="form_style">
+        <label for="code">Enter Your Code:</label>
+        <input type="text" name="code" id="code" required>
+        <input type="submit" value="Access Clipboard">
+    </form>
+    <p class="details">Directions to use: Enter any code which you can remember to save some texts which you can use later</p>
+    <p class="detailsa">Like in exams, lab-assesments, interviews, etc.</p>
+
+    
+</body>
+</html>
